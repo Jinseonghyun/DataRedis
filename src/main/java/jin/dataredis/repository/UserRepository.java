@@ -1,0 +1,9 @@
+package jin.dataredis.repository;
+
+import jin.dataredis.entity.User;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface UserRepository extends JpaRepository<User,Long> {
+}
